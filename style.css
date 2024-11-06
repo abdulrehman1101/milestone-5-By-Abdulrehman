@@ -1,12 +1,19 @@
 body{
     margin: 20px;
     padding: 0;
-     background-color: antiquewhite;
+    background-color: antiquewhite;
 }
 
-h1 {
+.Create-cv {
     text-align: center;
-    color: brown;
+    color: white;
+    /* border: 1px solid brown; */
+    background-color: rgb(182, 77, 77);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 633px;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: 4px;
 }
 form{
     max-width: 600px;
@@ -86,3 +93,4 @@ button:hover{
     height: 150px;
     object-fit: cover;
 }
+
